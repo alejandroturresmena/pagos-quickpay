@@ -1,5 +1,5 @@
 ## Ejemplo petición payment_method": "CMR_POINTS"
-Esta petición es para puntos mas pesos. Si se quiere realizar una consulta de solo puntos, se debe setear los campos transaction.amount.total = 0 y transaction.amount.details.subtotal = 0.
+Esta petición es para puntos más pesos. Si se quiere realizar una consulta de solo puntos, se debe setear los campos transaction.amount.total = 0 y transaction.amount.details.subtotal = 0.
 
 ```
 curl -X POST \
